@@ -1,0 +1,60 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: relative;
+  z-index: 100;
+}
+
+.hamburger {
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 101;
+}
+
+.theme-toggle {
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 101;
+}
+
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 200px;
+  background: rgba(255, 255, 255, 0.95);
+  overflow: hidden;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 100;
+}
+
+.menu-overlay.open {
+  transform: translateX(0);
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 1.5rem;
+  gap: 1.5rem;
+}
+
+.menu-content a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #1a202c;
+
+}
+
+.navbar-dark .menu-overlay {
+  background: rgba(20, 20, 30, 0.95);
+}
+
+.navbar-dark .menu-content a {
+  color: white;
+}

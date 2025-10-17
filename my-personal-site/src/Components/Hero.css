@@ -1,0 +1,125 @@
+.hero {
+  padding: 4rem 2rem;
+  text-align: center;
+  position: relative;
+}
+
+/* Divider Line Element */
+.hero-divider {
+  width: 60%;
+  height: 1px;
+  margin: 2rem auto;
+  background: currentColor;
+  opacity: 0.2;
+}
+
+.hero-dark {
+  color: white;
+}
+
+.hero-light {
+  background: transparent;
+  color: #1a202c;
+  padding: 4rem 2rem;
+  border-radius: 12px;
+  z-index: 1;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.highlight-dark {
+  color: #00bfff;
+}
+
+.highlight-light {
+  color: #0077cc;
+}
+
+.cta {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cta-dark {
+  background-color: white;
+  color: #1a202c;
+}
+
+.cta-light {
+  background: transparent;
+  color: #1a1a1a;
+  border: 2px solid #1a1a1a;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+}
+
+.cta-light:hover {
+  background: #1a1a1a;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.75rem;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
+/* Personal Projects Banner */
+.project-banner {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: linear-gradient(to right, #fef3c7, #fde68a);
+  color: #1a202c;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 223, 100, 0.3);
+  text-align: center;
+}
+
+.hero-dark .project-banner {
+  background: radial-gradient(circle at center, #1b2735, #090a0f);
+  color: white;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.project-banner h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.project-banner p {
+  font-size: 1.25rem;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.25rem;
+  }
+
+  .project-banner h2 {
+    font-size: 1.5rem;
+  }
+
+  .project-banner p {
+    font-size: 1.1rem;
+  }
+}

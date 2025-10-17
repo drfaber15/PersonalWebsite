@@ -1,0 +1,150 @@
+.about-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 2rem;
+  color: white;
+  text-align: center;
+}
+
+/* Profile Section */
+.about-content {
+  max-width: 800px;
+  padding: 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 0 auto 1.5rem auto;
+  text-align: center;
+}
+
+/* Light mode paragraph override */
+.about-light .about-content p {
+  color: #2d3748;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6);
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+}
+
+/* Resume Button */
+.resume-button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  display: inline-block;
+}
+
+.resume-button:hover {
+  background: #2563eb;
+}
+
+/* Section Containers */
+.tech-stack,
+.personal-projects {
+  width: 100%;
+  max-width: 800px;
+  padding: 4rem 1rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Section Headings with Emoji */
+.tech-stack h2::before {
+  content: '🧰 ';
+}
+
+.personal-projects h2::before {
+  content: '🚀 ';
+}
+
+.tech-stack h2,
+.personal-projects h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: inherit;
+}
+
+/* Tech Stack List */
+.tech-stack ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.tech-stack li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Custom Bullet Point */
+.tech-stack li::before {
+  content: '📎';
+  position: absolute;
+  left: 0;
+  color: #3b82f6;
+  font-size: 1rem;
+}
+
+/* Personal Projects Placeholder */
+.personal-projects p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+  color: inherit;
+}
+
+/* Divider line for dark mode */
+.about-dark .tech-stack,
+.about-dark .personal-projects {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Divider line for light mode */
+.about-light .tech-stack,
+.about-light .personal-projects {
+  border-top: 1px solid rgba(26, 32, 44, 0.2);
+}
+
+/* Theme Backgrounds */
+.about-dark {
+  background: radial-gradient(ellipse at top, #1b2735 0%, #090a0f 100%);
+  color: white;
+}
+
+.about-light {
+  background: linear-gradient(to bottom, #fff8dc, #fceabb);
+  color: #1a202c;
+}

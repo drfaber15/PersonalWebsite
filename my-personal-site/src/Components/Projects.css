@@ -1,0 +1,27 @@
+.projects-page {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.projects-dark {
+  background: radial-gradient(ellipse at top, #1b2735 0%, #090a0f 100%);
+  color: white;
+}
+
+.projects-light {
+  background: linear-gradient(to bottom, #fff8dc, #fceabb);
+  color: #1a202c;
+}
+
+.projects-page h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.projects-page p {
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
