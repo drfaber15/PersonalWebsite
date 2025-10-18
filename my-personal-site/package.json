@@ -2,7 +2,6 @@
   "name": "my-personal-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://drfaber15.github.io/PersonalWebsite",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
@@ -18,9 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -43,7 +40,9 @@
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.14",
+    "tailwindcss": "^4.1.14"
+  },
+  "optionalDependencies": {
     "gh-pages": "^5.0.0"
   }
 }
