@@ -8,7 +8,7 @@ function Hero({ darkMode }) {
       <h1>
         Welcome to{' '}
         <span className={`highlight ${darkMode ? 'highlight-dark' : 'highlight-light'}`}>
-          Dane’s Website
+          Dane's Website
         </span>
       </h1>
       <p>Exploring code, vision, and creativity.</p>
@@ -23,9 +23,11 @@ function Hero({ darkMode }) {
 
       {/* Personal Projects Banner */}
       <div className="project-banner">
-        <h2>🚧 Personal Projects in Progress</h2>
+        <h2>🚗 Featured Project: Maintenance Tracker</h2>
         <p>
-          I’m currently deep in development on several creative and technical projects — from real-time systems to experimental interfaces. This space will soon showcase demos, write-ups, and behind-the-scenes insights. Stay tuned!
+          Check out my latest project — a full-stack vehicle maintenance tracking application built with React and AWS. 
+          Track service records, schedule maintenance, and keep your vehicles in optimal condition with an intuitive, 
+          user-friendly interface. Click "View Projects" above to explore the live demo and see screenshots!
         </p>
       </div>
     </section>

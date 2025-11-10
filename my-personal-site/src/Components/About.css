@@ -126,6 +126,25 @@
   color: inherit;
 }
 
+.inline-link {
+  color: #3b82f6;
+  text-decoration: underline;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.inline-link:hover {
+  color: #2563eb;
+}
+
+.about-light .inline-link {
+  color: #2563eb;
+}
+
+.about-light .inline-link:hover {
+  color: #1d4ed8;
+}
+
 /* Divider line for dark mode */
 .about-dark .tech-stack,
 .about-dark .personal-projects {

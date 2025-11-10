@@ -25,8 +25,8 @@ function About({ darkMode }) {
   <ul>
     <li><strong>Languages:</strong> Python, Java, C, JavaScript, C++, R, Xbasic</li>
     <li><strong>Frontend:</strong> React, React Native, Typescript, HTML, CSS, Bootstrap, Figma</li>
-    <li><strong>Backend & DevOps:</strong> MSSQL, FastAPI, Docker, REST, GitLab CI/CD, Bash</li>
-    <li><strong>Tools:</strong> Git, Pytorch, ChatGPT, Microsoft Azure, IntelliJ, PyCharm, CLion, Visual Studio</li>
+    <li><strong>Backend & DevOps:</strong> PostgreSQL, MSSQL, Docker, REST, GitLab CI/CD, Bash, Flask, FastAPI</li>
+    <li><strong>Tools:</strong> AWS, Git, Pytorch, ChatGPT, Microsoft Azure, IntelliJ, PyCharm, CLion, Visual Studio Code</li>
     <li><strong>Practices:</strong> DevSecOps, Agile/Scrum, CMMC L3 Compliance, Software Quality Assurance</li>
   </ul>
 </div>
@@ -35,7 +35,11 @@ function About({ darkMode }) {
       {/* Personal Projects Section */}
       <div className="personal-projects">
         <h2>Personal Projects</h2>
-        <p>I'm currently working on new personal projects — this space will be updated soon with details and demos.</p>
+        <p>
+          <strong>Maintenance Tracker</strong> — A full-stack vehicle maintenance tracking application built with React, AWS, and modern cloud architecture. 
+          This app helps users manage their vehicles, track service records, and schedule maintenance with an intuitive interface. 
+          Check out the <a href="/projects" className="inline-link">Projects page</a> to see screenshots and try the live demo!
+        </p>
       </div>
     </section>
   );
