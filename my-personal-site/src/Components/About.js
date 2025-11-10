@@ -25,7 +25,7 @@ function About({ darkMode }) {
   <ul>
     <li><strong>Languages:</strong> Python, Java, C, JavaScript, C++, R, Xbasic</li>
     <li><strong>Frontend:</strong> React, React Native, Typescript, HTML, CSS, Bootstrap, Figma</li>
-    <li><strong>Backend & DevOps:</strong> PostgreSQL, MSSQL, Docker, REST, GitLab CI/CD, Bash, Flask, FastAPI</li>
+    <li><strong>Backend & DevOps:</strong> PostgreSQL, MSSQL, Docker, REST, GitLab, Bash, Flask, FastAPI</li>
     <li><strong>Tools:</strong> AWS, Git, Pytorch, ChatGPT, Microsoft Azure, IntelliJ, PyCharm, CLion, Visual Studio Code</li>
     <li><strong>Practices:</strong> DevSecOps, Agile/Scrum, CMMC L3 Compliance, Software Quality Assurance</li>
   </ul>
