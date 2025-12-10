@@ -20,7 +20,7 @@ function Projects({ darkMode }) {
     {
       title: "Code Explainer",
       description: "An AI-powered code explanation tool that uses Hugging Face LLMs to provide detailed explanations of code snippets. Features line-by-line breakdowns, test case generation, and supports multiple programming languages through both a CLI tool and REST API backend.",
-      link: "https://github.com/drfaber15/code-explainer-cli",
+      link: "https://ai-code-explainer-rnlcajody-dane-fabers-projects.vercel.app/",
       tags: ["Python", "Flask", "Hugging Face", "LLM", "REST API"],
       screenshots: []
     }
