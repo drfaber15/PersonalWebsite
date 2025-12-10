@@ -16,6 +16,13 @@ function Projects({ darkMode }) {
         { src: maintenanceGarage, alt: "My Garage View" },
         { src: maintenanceMaintenance, alt: "Maintenance Tracking" }
       ]
+    },
+    {
+      title: "Code Explainer",
+      description: "An AI-powered code explanation tool that uses Hugging Face LLMs to provide detailed explanations of code snippets. Features line-by-line breakdowns, test case generation, and supports multiple programming languages through both a CLI tool and REST API backend.",
+      link: "https://github.com/drfaber15/code-explainer-cli",
+      tags: ["Python", "Flask", "Hugging Face", "LLM", "REST API"],
+      screenshots: []
     }
   ];
   const [currentScreenshot, setCurrentScreenshot] = useState({});
